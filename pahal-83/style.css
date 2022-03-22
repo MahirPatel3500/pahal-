@@ -1,0 +1,106 @@
+.header{
+   
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.menu{
+    
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.footer{
+   
+    display: flex;
+    justify-content: space-evenly;
+    }
+    h1{
+        color: rgb(236, 48, 15);
+    }
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.grid{
+    display: flex;
+    justify-content: flex-start;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+     justify-content: space-evenly;
+}
+
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width :498%;
+    margin :0;
+    left:0;
+    animation: 20s slider infinite ;
+}
+#slider figure img{
+float: left ;
+width:20% ;
+}
+@keyframes slider{
+    0% {
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left: -100% ;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left:-400%;
+    }
+    120%{
+        left:400%;
+    }
+    125%{
+        left:500%;
+    }
+}
+.items1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: x-large;
+}
+.item2{
+    display: flex;
+    justify-content: center;
+}
+
+.item3{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+h3{
+    color: rgb(70, 23, 4);
+}
